@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "TP7 Satellite Tracker",
+    "slug": "tp7-satellite-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tp7satellitetracker",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Se requiere la ubicación GPS del observador para calcular el azimut, elevación y ventanas de visibilidad (AOS/LOS) de los satélites.",
+        "NSMotionUsageDescription": "Se requieren los sensores de orientación para el modo brújula asistida hacia el satélite."
+      }
+    },
+    "android": {
+      "package": "com.dam.tp7satellitetracker",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permite a Satellite Tracker calcular pasos visibles sobre tu ubicación."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#38bdf8"
+        }
+      ]
+    ]
+  }
+}
+

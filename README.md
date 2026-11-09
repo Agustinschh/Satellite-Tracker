@@ -45,9 +45,6 @@ npm run proxy
 
 ---
 
-## 📚 Documentación Técnica Entregable (`/docs`)
 
-- [Modelo de Propagación Orbital SGP4/SDP4, Supuestos y Limitaciones](./docs/MODELO_PROPAGACION.md)
-- [Decisiones sobre Fuentes de Datos, Caso Starlink SupGP, Límites de API y Caché/Fallback](./docs/DECISIONES_FUENTES_DATOS.md)
-- [Informe de Validación Cruzada (SGP4 Local vs. Where the ISS at? y N2YO)](./docs/INFORME_VALIDACION.md)
-
+el video demostrativo de la aplicacion se encuentra en:
+https://drive.google.com/file/d/1Cxa7P8LayicLzaLrsT0PWZgLa7ho05rO/view?usp=sharing
